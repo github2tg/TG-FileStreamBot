@@ -11,7 +11,7 @@ async def start(_, m: Message):
                   reply_markup=InlineKeyboardMarkup(
                       [[
                             InlineKeyboardButton(
-                                  f'{emoji.STAR} <i>JOIN THIS CHANNEL<i> {emoji.STAR}',
+                                  f'JOIN THIS CHANNEL',
                                   url='https://telegram.me/MHND_BOT_UPDATE_CHANNEL')
                         ]]
                   ))
