@@ -7,7 +7,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 
 @StreamBot.on_message(filters.command(['start', 'help']))
 async def start(_, m: Message):
-    await m.reply(f'Hi {m.from_user.mention(style="md")}, Send me a file to get an instant stream link.',
+    await m.reply(f'Hi {m.from_user.mention(style="md")}, Send me a file to get an instant stream link പിന്നെ ഒരുകാര്യം ബോട്ട് start കൊടുത്തിട്ട് reply വരുന്നില്ല എങ്കിൽ താഴെ പറയുന്നലിങ്കിൽ ഒന്ന് ക്ലിക്ക് ചെയ്ത് open ചെയ്ത് തിരിച്ച് വരുക അപ്പൊ ശെരിയാകും https://mhnd-file-streem.herokuapp.com/.',
                   reply_markup=InlineKeyboardMarkup(
                       [[
                             InlineKeyboardButton(
