@@ -11,7 +11,7 @@ async def start(_, m: Message):
                   reply_markup=InlineKeyboardMarkup(
                       [[
                             InlineKeyboardButton(
-                                  f'{emoji.STAR} Source {emoji.STAR}',
-                                  url='https://github.com/EverythingSuckz/TG-FileStreamBot')
+                                  f'{emoji.STAR} <i>JOIN THIS CHANNEL<i> {emoji.STAR}',
+                                  url='https://telegram.me/MHND_BOT_UPDATE_CHANNEL')
                         ]]
                   ))
