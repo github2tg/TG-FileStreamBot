@@ -11,6 +11,16 @@ async def start(_, m: Message):
                   reply_markup=InlineKeyboardMarkup(
                       [[
                             InlineKeyboardButton(
+                        "🍬 Project channel", url="https://telegram.me/MHND_BOT_UPDATE_CHANNEL"
+                    ),
+                    InlineKeyboardButton("🍭 Support group", url="https://telegram.me/MHND_BOT_UPDATE_GROUP"),
+                ],
+                [InlineKeyboardButton("👩‍💻 Master", url="https://telegram.me/MHND_KDR")],
+            ]
+        ),
+    )                         
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+                            InlineKeyboardButton(
                                   f'🅻︎🅸︎🅽︎🅺︎',
                                   url='https://mhnd-file-streem.herokuapp.com/')
                             InlineKeyboardButton(
