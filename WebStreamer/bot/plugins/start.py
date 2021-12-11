@@ -11,7 +11,7 @@ async def start(_, m: Message):
                   reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('🅻︎🅸︎🅽︎🅺︎', url='https://mhnd-file-streem.herokuapp.com/'),
+                    InlineKeyboardButton('🅻︎🅸︎🅽︎🅺︎', url='tg://resolve?domain=MHND_BOT_UPDATE_CHANNEL&post=149'),
                     InlineKeyboardButton('𝕁𝕆𝕀ℕ 𝕋ℍ𝕀𝕊 ℂℍ𝔸ℕℕ𝔼𝕃', url='https://telegram.me/MHND_BOT_UPDATE_CHANNEL')
                 ],
                 [
