@@ -29,6 +29,4 @@ async def media_receive_handler(_, m: Message):
     stream_link = Var.URL + str(log_msg.message_id) + '/' +quote_plus(file_name) if file_name else ''
     await m.reply_text(
         text="`{}`".format(stream_link),
-        quote=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Open', url=stream_link)]])
     )
