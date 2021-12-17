@@ -7,5 +7,5 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 
 @StreamBot.on_message(filters.command(['start', 'help']))
 async def start(_, m: Message):
-    await m.reply(f'ℍ𝕚)
+    await m.reply(f'ℍ𝕚,
     )
